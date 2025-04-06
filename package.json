@@ -1,0 +1,19 @@
+{
+  "name": "tgs_to_png",
+  "version": "1.0.0",
+  "main": "convert-tgs-folder.js",
+  "scripts": {
+    "start": "node convert-tgs-folder.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Microservice to convert TGS files to PNG",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "puppeteer-lottie": "^1.1.2",
+    "uuid": "^9.0.1"
+  }
+}
