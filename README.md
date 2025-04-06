@@ -23,7 +23,7 @@ A microservice that converts Telegram animated stickers (`.tgs` files) to PNG im
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone git@github.com:sijokun/tgs-to-png.git
 cd tgs-to-png
 ```
 
@@ -37,7 +37,7 @@ docker run -p 3000:3000 tgs-to-png-service
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone git@github.com:sijokun/tgs-to-png.git
 cd tgs-to-png
 ```
 
@@ -141,10 +141,6 @@ The included Dockerfile sets up all necessary dependencies and configurations. T
 2. Create a feature branch
 3. Make your changes
 4. Submit a pull request
-
-## License
-
-[Your License Here]
 
 ## Contributing
 
